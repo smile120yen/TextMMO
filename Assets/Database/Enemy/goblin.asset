@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31933bbdfac890841b99fc6050e9ab4d, type: 3}
+  m_Name: goblin
+  m_EditorClassIdentifier: 
+  enemyName: "\u30B4\u30D6\u30EA\u30F3"
+  enemyMaxHp: 10
+  enemyAtk: 1
+  dropItemDatas:
+  - itemName: 3
+    dropChance: 1
+    dropMaxMount: 12
+    dropMinMount: 8
+  - itemName: 1
+    dropChance: 0.3
+    dropMaxMount: 1
+    dropMinMount: 1
+  - itemName: 10
+    dropChance: 0.3
+    dropMaxMount: 1
+    dropMinMount: 1
+  - itemName: 6
+    dropChance: 0.05
+    dropMaxMount: 1
+    dropMinMount: 1
+  - itemName: 24
+    dropChance: 0.05
+    dropMaxMount: 1
+    dropMinMount: 1

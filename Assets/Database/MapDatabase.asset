@@ -1,0 +1,3916 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e631addd1488a744a3098576ce849b0, type: 3}
+  m_Name: MapDatabase
+  m_EditorClassIdentifier: 
+  _mapDatas:
+  - name: "\u3042\u306A\u305F\u306E\u5BB6"
+    uniqueName: Home
+    infoTexts:
+    - text: "[ \u4F11\u3093\u3067HP\u30FBMP\u3092\u56DE\u5FA9\u3059\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: f9e3e4be6b17d2a4ea15c13ee7cd06e0, type: 2}
+        args:
+          targetID: 0
+          mount: 9999
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      - action: {fileID: 11400000, guid: 8a294d23b6be3a54eac8989274f44f33, type: 2}
+        args:
+          targetID: 0
+          mount: 9999
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u3053\u3053\u3092\u30EA\u30B9\u30DD\u30FC\u30F3\u5730\u70B9\u306B\u8A2D\u5B9A\u3059\u308B
+        ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: fb042c68def2ff24aa4e07291bdfe9fc, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 1
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u306F\u3058\u307E\u308A\u306E\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 2
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 0, g: 0, b: 0, a: 0}
+    enemyDatas: []
+  - name: "\u306F\u3058\u307E\u308A\u306E\u9053"
+    uniqueName: FirstRoad
+    infoTexts:
+    - text: "\u3059\u3079\u3066\u306E\u59CB\u307E\u308A\u3068\u306A\u308B\u5206\u5C90\u70B9\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: ' '
+      actionDatas:
+      - action: {fileID: 0}
+        args:
+          targetID: 0
+          mount: 1
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u9053\u7AEF\u306E\u6728\u3092\u5207\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: c13931f086a84074594d75b9303b75da, type: 2}
+        args:
+          targetID: 0
+          mount: 1
+          targetMapName: 0
+          targetItemName: 35
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      - action: {fileID: 11400000, guid: 522f12a0b70dfd44a871a2d09e99be25, type: 2}
+        args:
+          targetID: 0
+          mount: -5
+          targetMapName: 0
+          targetItemName: 35
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u3042\u306A\u305F\u306E\u5BB6"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 1
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 0, g: 0, b: 0, a: 0}
+    - text: "\u30B7\u30E7\u30C3\u30D7"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 4
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 0, g: 0, b: 0, a: 0}
+    - text: "\u5DE5\u623F"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 48
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u7802\u5229\u306E\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 55
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 0, g: 0, b: 0, a: 0}
+    enemyDatas: []
+  - name: "\u306F\u3058\u307E\u308A\u306E\u9053 > \u304A\u5E97"
+    uniqueName: Shop
+    infoTexts:
+    - text: "\u3068\u3066\u3082\u5C0F\u3055\u3044\u304A\u5E97\u3002\u3044\u304F\u3064\u304B\u306E\u6728\u88FD\u54C1\u3092\u58F2\u3063\u3066\u3044\u308B\u3002<br>\u9271\u7269\u3092\u8CB7\u3044\u53D6\u3063\u3066\u304F\u308C\u308B\u3002<br> "
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u30A2\u30A4\u30C6\u30E0\u3092\u8CB7\u3046 ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: a88e4df09fd29c542b5288867837d481, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 11400000, guid: fcc618b21a92f0142bd1a87c667aa60d, type: 2}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u30A2\u30A4\u30C6\u30E0\u3092\u58F2\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 8b1d2a880f219ed4d9e60b2b219d83fb, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 11400000, guid: 4f381ade80219fe45837a461559f671d, type: 2}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u306F\u3058\u307E\u308A\u306E\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 2
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 0, g: 0, b: 0, a: 0}
+    enemyDatas: []
+  - name: "\u306F\u3058\u307E\u308A\u306E\u9053 > \u5DE5\u623F"
+    uniqueName: first_workshop
+    infoTexts:
+    - text: "\u7121\u6599\u3067\u8CB8\u3057\u51FA\u3055\u308C\u3066\u3044\u308B\u3061\u3087\u3063\u3068\u3057\u305F\u4F5C\u696D\u5834\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u3000"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u52A0\u5DE5\u3059\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 38910ef8faae3a849a83539ed951b35e, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 11400000, guid: d7672b6bed15a064498acf2313ef2c90, type: 2}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u306F\u3058\u307E\u308A\u306E\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 2
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u306F\u3058\u307E\u308A\u306E\u9053 > \u7802\u5229\u306E\u9053"
+    uniqueName: first_gravel_road
+    infoTexts:
+    - text: "\u9271\u5C71\u3078\u3068\u7D9A\u304F\u7802\u5229\u306E\u9053\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u306F\u3058\u307E\u308A\u306E\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 2
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u9271\u5C71"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 5
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6D1E\u7A9F"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 8
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: d6efc4f8ae4bcde419a3791f3f50ca11, type: 2}
+  - name: "\u306F\u3058\u307E\u308A\u306E\u9053 > \u9271\u5C71"
+    uniqueName: Kouzan
+    infoTexts:
+    - text: "\u9244\u9271\u77F3\u304C\u3088\u304F\u6398\u308C\u308B\u9271\u5C71\u3002<br> "
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u63A1\u6398\u3059\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 522f12a0b70dfd44a871a2d09e99be25, type: 2}
+        args:
+          targetID: 0
+          mount: -2
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      - action: {fileID: 11400000, guid: c13931f086a84074594d75b9303b75da, type: 2}
+        args:
+          targetID: 0
+          mount: 1
+          targetMapName: 0
+          targetItemName: 7
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u7802\u5229\u306E\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 55
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 0, g: 0, b: 0, a: 0}
+    enemyDatas: []
+  - name: "\u306F\u3058\u307E\u308A\u306E\u9053 > \u6D1E\u7A9F1"
+    uniqueName: Doukutu1
+    infoTexts:
+    - text: "\u6D1E\u7A9F\u306E\u5371\u967A\u5730\u5E2F\u3002\u6575\u304C\u51FA\u73FE\u3059\u308B\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u306F\u3058\u307E\u308A\u306E\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 2
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 0}
+    - text: "\u6D1E\u7A9F2"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 6
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 0}
+    enemyDatas:
+    - {fileID: 11400000, guid: d6efc4f8ae4bcde419a3791f3f50ca11, type: 2}
+  - name: "\u306F\u3058\u307E\u308A\u306E\u9053 > \u6D1E\u7A9F2"
+    uniqueName: Doukutu2
+    infoTexts:
+    - text: "\u6D1E\u7A9F\u306E\u5371\u967A\u5730\u5E2F\u3002\u6575\u304C\u51FA\u73FE\u3059\u308B\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u6D1E\u7A9F1"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 8
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6D1E\u7A9F3"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 3
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: d6efc4f8ae4bcde419a3791f3f50ca11, type: 2}
+  - name: "\u306F\u3058\u307E\u308A\u306E\u9053 > \u6D1E\u7A9F3"
+    uniqueName: Doukutu3
+    infoTexts:
+    - text: "\u6D1E\u7A9F\u306E\u5371\u967A\u5730\u5E2F\u3002\u6575\u304C\u51FA\u73FE\u3059\u308B\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u6D1E\u7A9F2"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 6
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6D1E\u7A9F4"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 7
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: d6efc4f8ae4bcde419a3791f3f50ca11, type: 2}
+    - {fileID: 11400000, guid: d6efc4f8ae4bcde419a3791f3f50ca11, type: 2}
+  - name: "\u306F\u3058\u307E\u308A\u306E\u9053 > \u6D1E\u7A9F4"
+    uniqueName: Doukutu4
+    infoTexts:
+    - text: "\u6D1E\u7A9F\u306E\u5371\u967A\u5730\u5E2F\u3002\u6575\u304C\u51FA\u73FE\u3059\u308B\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u6D1E\u7A9F3"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 3
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6D1E\u7A9F5"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 9
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: d6efc4f8ae4bcde419a3791f3f50ca11, type: 2}
+    - {fileID: 11400000, guid: 72ecdb2c3d871d449a4c30fde75576b3, type: 2}
+  - name: "\u306F\u3058\u307E\u308A\u306E\u9053 > \u6D1E\u7A9F5"
+    uniqueName: Doukutu5
+    infoTexts:
+    - text: "\u6D1E\u7A9F\u306E\u5371\u967A\u5730\u5E2F\u3002\u6575\u304C\u51FA\u73FE\u3059\u308B\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u6D1E\u7A9F4"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 7
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u51FA\u53E3"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 46
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: d6efc4f8ae4bcde419a3791f3f50ca11, type: 2}
+    - {fileID: 11400000, guid: 72ecdb2c3d871d449a4c30fde75576b3, type: 2}
+  - name: "\u5192\u967A\u8857\u5165\u53E3"
+    uniqueName: adventure_town_entrance
+    infoTexts:
+    - text: "\u6D3B\u6C17\u3042\u308B\u4EBA\u306E\u6CE2\u304C\u898B\u3048\u308B\u3002<br>\u300C100m\u5148\u3001\u5192\u967A\u8857\u4E2D\u5FC3\u90E8\u300D"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5192\u967A\u8857\u4E2D\u5FC3\u90E8"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 43
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6D1E\u7A9F"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 9
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u68EE\u306E\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 13
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5C71\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 18
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5192\u967A\u8857\u4E2D\u5FC3\u90E8"
+    uniqueName: adventure_town
+    infoTexts:
+    - text: "\u5192\u967A\u306E\u62E0\u70B9\u3068\u3057\u3066\u6709\u540D\u306A\u8857\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u884C\u304D\u4EA4\u3046\u4EBA\u306E\u6570\u3082\u591A\u304F\u3001\u8857\u5168\u4F53\u306B\u6D3B\u6C17\u3092\u611F\u3058\u308B\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u3053\u3053\u3092\u30EA\u30B9\u30DD\u30FC\u30F3\u5730\u70B9\u306B\u8A2D\u5B9A\u3059\u308B
+        ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: fb042c68def2ff24aa4e07291bdfe9fc, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 43
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u30B7\u30E7\u30C3\u30D7"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 45
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u935B\u51B6\u5C4B"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 11
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u9152\u5834"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 44
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u30CF\u30ED\u30FC\u30EF\u30FC\u30AF"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 47
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5192\u967A\u8857\u5165\u53E3"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 46
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5192\u967A\u8857 > \u30B7\u30E7\u30C3\u30D7"
+    uniqueName: adventure_town_shop
+    infoTexts:
+    - text: "\u3053\u306E\u753A\u3044\u3061\u3070\u3093\u306E\u5927\u304D\u306A\u5E97\u3060\uFF01<br>\u3055\u307E\u3056\u307E\u306A\u65E5\u7528\u54C1\u304C\u304D\u308C\u3044\u306B\u9673\u5217\u3055\u308C\u3066\u3044\u308B\u3002<br><br>"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u30A2\u30A4\u30C6\u30E0\u3092\u8CB7\u3046 ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: a88e4df09fd29c542b5288867837d481, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 11400000, guid: 8e60adc646c57034098aa000269e61fc, type: 2}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5192\u967A\u8857\u4E2D\u5FC3\u90E8"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 43
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5192\u967A\u8857 > \u935B\u51B6\u5C4B"
+    uniqueName: FirstBlackSmith
+    infoTexts:
+    - text: "\u300C\uFF71\uFF67\uFF5E\uFF01\uFF72\uFF72\u7D20\u6750\uFF93\uFF6F\uFF83\uFF99\uFF88\uFF01\uFF81\uFF6E\uFF6F\uFF84\uFF90\uFF7C\uFF83\uFF90\uFF9D\uFF7B\uFF72\uFF01\u300D<br>\u5E97\u5185\u306F\u30AC\u30E9\u30AF\u30BF\u3060\u3089\u3051\u3067\u5909\u306A\u306B\u304A\u3044\u304C\u3059\u308B\u3002<br><br>"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u7D20\u6750\u3092\u52A0\u5DE5\u3059\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 38910ef8faae3a849a83539ed951b35e, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 11400000, guid: 3b374ef4ba10bd94eabebf089e0e7a85, type: 2}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5192\u967A\u8857\u4E2D\u5FC3\u90E8"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 43
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5192\u967A\u8857 > \u9152\u5834"
+    uniqueName: common_bar
+    infoTexts:
+    - text: "\u30D3\u30FC\u30EB\u306E\u3046\u307E\u3044\u5927\u8846\u9152\u5834\u3002<br>"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u9152\u3092\u98F2\u3080 ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 6edeb6181608dc54b814493f29e74a47, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: "\u306F\u9152\u3092\u4E00\u676F\u3042\u304A\u3063\u305F\u3002"
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      - action: {fileID: 11400000, guid: f9e3e4be6b17d2a4ea15c13ee7cd06e0, type: 2}
+        args:
+          targetID: 0
+          mount: 5
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: "\u306F\u9152\u3092\u4E00\u676F\u3042\u304A\u3063\u305F\u3002"
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      - action: {fileID: 11400000, guid: 522f12a0b70dfd44a871a2d09e99be25, type: 2}
+        args:
+          targetID: 0
+          mount: -15
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5192\u967A\u8857\u4E2D\u5FC3\u90E8"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 43
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5192\u967A\u8857 > \u30CF\u30ED\u30FC\u30EF\u30FC\u30AF"
+    uniqueName: adventure_town_hello_work
+    infoTexts:
+    - text: "\u65B0\u305F\u306A\u8077\u696D\u306B\u8EE2\u8077\u3067\u304D\u308B\u65BD\u8A2D\u3002<br>\u53D7\u4ED8\u306E\u304A\u3058\u3055\u3093\u306E\u30C6\u30F3\u30B7\u30E7\u30F3\u304C\u4F4E\u304F\u3066\u6016\u3044\u3002<br>\u3000"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u8077\u696D\u3092\u78BA\u8A8D ]<br>"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 9ee7b554da67b074bb60dae6a5047a54, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 2
+          jobChangeDatas:
+          - jobName: 0
+            price: 0
+          - jobName: 1
+            price: 300
+          - jobName: 2
+            price: 300
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5192\u967A\u8857\u4E2D\u5FC3\u90E8"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 43
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5192\u967A\u8857 > \u68EE\u306E\u90531"
+    uniqueName: fiaryforest_steet1
+    infoTexts:
+    - text: "\u6DF1\u3044\u6797\u306E\u4E2D\u306B\u3042\u308B\u8B66\u5099\u968A\u306E\u898B\u56DE\u308A\u306E\u306A\u3044\u5371\u967A\u306A\u9053\u3002<br>\u3069\u3053\u304B\u3089\u306A\u306B\u304C\u73FE\u308C\u3066\u3082\u304A\u304B\u3057\u304F\u306A\u3044\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5192\u967A\u8857\u5165\u53E3"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 46
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u68EE\u306E\u90532"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 14
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: d6efc4f8ae4bcde419a3791f3f50ca11, type: 2}
+    - {fileID: 11400000, guid: 183bf402c2b6ade49adc6d4ae9d2807f, type: 2}
+  - name: "\u5192\u967A\u8857 > \u68EE\u306E\u90532"
+    uniqueName: fiaryforest_steet2
+    infoTexts:
+    - text: "\u6DF1\u3044\u6797\u306E\u4E2D\u306B\u3042\u308B\u8B66\u5099\u968A\u306E\u898B\u56DE\u308A\u306E\u306A\u3044\u5371\u967A\u306A\u9053\u3002<br>\u3069\u3053\u304B\u3089\u306A\u306B\u304C\u73FE\u308C\u3066\u3082\u304A\u304B\u3057\u304F\u306A\u3044\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u68EE\u306E\u90531"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 13
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u68EE\u306E\u90533"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 15
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 2f9cf97a5245f854c919246a80852cd7, type: 2}
+    - {fileID: 11400000, guid: 2f9cf97a5245f854c919246a80852cd7, type: 2}
+    - {fileID: 11400000, guid: 2f9cf97a5245f854c919246a80852cd7, type: 2}
+  - name: "\u5192\u967A\u8857 > \u68EE\u306E\u90533"
+    uniqueName: fiaryforest_steet3
+    infoTexts:
+    - text: "\u6DF1\u3044\u6797\u306E\u4E2D\u306B\u3042\u308B\u8B66\u5099\u968A\u306E\u898B\u56DE\u308A\u306E\u306A\u3044\u5371\u967A\u306A\u9053\u3002<br>\u3069\u3053\u304B\u3089\u306A\u306B\u304C\u73FE\u308C\u3066\u3082\u304A\u304B\u3057\u304F\u306A\u3044\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u68EE\u306E\u90532"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 14
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u68EE\u306E\u90534"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 16
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 183bf402c2b6ade49adc6d4ae9d2807f, type: 2}
+    - {fileID: 11400000, guid: 183bf402c2b6ade49adc6d4ae9d2807f, type: 2}
+    - {fileID: 11400000, guid: 03ee9942aa1f9954e871858d5f6a659d, type: 2}
+  - name: "\u5192\u967A\u8857 > \u68EE\u306E\u90534"
+    uniqueName: fiaryforest_steet4
+    infoTexts:
+    - text: "\u6DF1\u3044\u6797\u306E\u4E2D\u306B\u3042\u308B\u8B66\u5099\u968A\u306E\u898B\u56DE\u308A\u306E\u306A\u3044\u5371\u967A\u306A\u9053\u3002<br>\u3069\u3053\u304B\u3089\u306A\u306B\u304C\u73FE\u308C\u3066\u3082\u304A\u304B\u3057\u304F\u306A\u3044\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u68EE\u306E\u90533"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 15
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5996\u7CBE\u306E\u3059\u307F\u304B"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 17
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: e3d355c17143e314296c0715edf105b9, type: 2}
+  - name: "\u5996\u7CBE\u306E\u3059\u307F\u304B"
+    uniqueName: fiaryforest
+    infoTexts:
+    - text: "\u5996\u7CBE\u306E\u3059\u3080\u68EE\u3002\u3061\u3089\u3061\u3089\u3068\u5996\u7CBE\u304C\u3053\u3061\u3089\u3092\u8997\u3044\u3066\u3044\u308B\u3002\u4E01\u5BE7\u306B\u8A71\u3057\u304B\u3051\u308C\u3070\u30B3\u30DF\u30E5\u30CB\u30B1\u30FC\u30B7\u30E7\u30F3\u304C\u53D6\u308C\u305D\u3046\u3060\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u3053\u3053\u3092\u30EA\u30B9\u30DD\u30FC\u30F3\u5730\u70B9\u306B\u8A2D\u5B9A\u3059\u308B
+        ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: fb042c68def2ff24aa4e07291bdfe9fc, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 17
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u7814\u7A76\u5BA4"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 10
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u30CF\u30ED\u30FC\u30EF\u30FC\u30AF"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 49
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u96A0\u3057\u9053\uFF08\u68EE\u306E\u90533\uFF09"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 15
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u68EE\u306E\u90534"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 16
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6DF1\u3044\u68EE"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 51
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5996\u7CBE\u306E\u3059\u307F\u304B > \u7814\u7A76\u5BA4"
+    uniqueName: fiaryforest_labo
+    infoTexts:
+    - text: "[ \u9B54\u9053\u5177\u3092\u4F5C\u6210\u3059\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 38910ef8faae3a849a83539ed951b35e, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 11400000, guid: 97d1ab45a4eff3444ae2522c277e92ed, type: 2}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5996\u7CBE\u306E\u3059\u307F\u304B"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 17
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5996\u7CBE\u306E\u3059\u307F\u304B > \u30CF\u30ED\u30FC\u30EF\u30FC\u30AF"
+    uniqueName: fiaryforest_hello_work
+    infoTexts:
+    - text: "\u5996\u7CBE\u3055\u3093\u306E\u30CF\u30ED\u30FC\u30EF\u30FC\u30AF\u3002<br>\u53D7\u4ED8\u306E\u5996\u7CBE\u3055\u3093\u306E\u9854\u304C\u6016\u3044\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: ' '
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u8077\u696D\u3092\u78BA\u8A8D ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 9ee7b554da67b074bb60dae6a5047a54, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas:
+          - jobName: 0
+            price: 0
+          - jobName: 3
+            price: 300
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5996\u7CBE\u306E\u3059\u307F\u304B"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 17
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5996\u7CBE\u306E\u3059\u307F\u304B > \u6DF1\u3044\u68EE1"
+    uniqueName: deep_forest1
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u6DF1\u3044\u68EE2"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 52
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 03ee9942aa1f9954e871858d5f6a659d, type: 2}
+    - {fileID: 11400000, guid: 03ee9942aa1f9954e871858d5f6a659d, type: 2}
+  - name: "\u5996\u7CBE\u306E\u3059\u307F\u304B > \u6DF1\u3044\u68EE2"
+    uniqueName: deep_forest2
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u6DF1\u3044\u68EE3"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 53
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 3dfcbeabe9e3bf547b97a0f77d7e0e43, type: 2}
+  - name: "\u5996\u7CBE\u306E\u3059\u307F\u304B > \u6DF1\u3044\u68EE3"
+    uniqueName: deep_forest3
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u68EE\u306E\u6700\u6DF1\u90E8"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 54
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 3dfcbeabe9e3bf547b97a0f77d7e0e43, type: 2}
+    - {fileID: 11400000, guid: 3dfcbeabe9e3bf547b97a0f77d7e0e43, type: 2}
+  - name: "\u5996\u7CBE\u306E\u3059\u307F\u304B > \u68EE\u306E\u6700\u6DF1\u90E8"
+    uniqueName: deep_forest_end
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5E30\u9084\u30DD\u30FC\u30BF\u30EB"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 17
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 3dfcbeabe9e3bf547b97a0f77d7e0e43, type: 2}
+    - {fileID: 11400000, guid: 3dfcbeabe9e3bf547b97a0f77d7e0e43, type: 2}
+    - {fileID: 11400000, guid: 08cc6e4671ea06444a702e1405fc696a, type: 2}
+    - {fileID: 11400000, guid: 3dfcbeabe9e3bf547b97a0f77d7e0e43, type: 2}
+    - {fileID: 11400000, guid: 3dfcbeabe9e3bf547b97a0f77d7e0e43, type: 2}
+  - name: "\u5192\u967A\u8857 > \u5C71\u90531"
+    uniqueName: moutain_road1
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5192\u967A\u8857\u5165\u53E3"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 46
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5C71\u90532"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 19
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 2f9cf97a5245f854c919246a80852cd7, type: 2}
+    - {fileID: 11400000, guid: 30fc22e68759187489d83774362924eb, type: 2}
+  - name: "\u5192\u967A\u8857 > \u5C71\u90532"
+    uniqueName: moutain_road2
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5C71\u90531"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 18
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5C71\u90533"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 20
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 30fc22e68759187489d83774362924eb, type: 2}
+    - {fileID: 11400000, guid: 30fc22e68759187489d83774362924eb, type: 2}
+  - name: "\u5192\u967A\u8857 > \u5C71\u90533"
+    uniqueName: moutain_road3
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5C71\u90532"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 19
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u8C37\u5E95\u306E\u6751"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 24
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6C34\u6676\u6D1E\u7A9F"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 21
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 30fc22e68759187489d83774362924eb, type: 2}
+    - {fileID: 11400000, guid: 30fc22e68759187489d83774362924eb, type: 2}
+  - name: "\u8C37\u5E95\u306E\u6751"
+    uniqueName: valley_village
+    infoTexts:
+    - text: "[ \u3053\u3053\u3092\u30EA\u30B9\u30DD\u30FC\u30F3\u5730\u70B9\u306B\u8A2D\u5B9A\u3059\u308B
+        ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: fb042c68def2ff24aa4e07291bdfe9fc, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 24
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5C71\u90533"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 20
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u935B\u51B6\u5C4B"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 12
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u8C37\u5E95\u30DE\u30FC\u30C8"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 50
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6C34\u6676\u6D1E\u7A9F1"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 21
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5730\u4E0A\u3078\u306E\u90531"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 25
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u8C37\u5E95\u306E\u6751 > \u935B\u51B6\u5C4B"
+    uniqueName: valley_village_blacksmith
+    infoTexts:
+    - text: "[ \u9271\u77F3\u3092\u52A0\u5DE5\u3059\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 38910ef8faae3a849a83539ed951b35e, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 11400000, guid: 0ba1738d80e9f814598f8652b491daa7, type: 2}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u8C37\u5E95\u306E\u6751"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 24
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u8C37\u5E95\u306E\u6751 > \u8C37\u5E95\u30DE\u30FC\u30C8"
+    uniqueName: tanizokomart
+    infoTexts:
+    - text: "\u3044\u3064\u3082\u30CB\u30B3\u30CB\u30B3\u8C37\u5E95\u30DE\u30FC\u30C8\uFF01\u3044\u3089\u3063\u3057\u3083\u3044\u307E\u305B\uFF5E"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u8CFC\u5165\u3059\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: a88e4df09fd29c542b5288867837d481, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 11400000, guid: 0ac6008968aee36488b8da80ac3c34e3, type: 2}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u8C37\u5E95\u306E\u6751"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 24
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u8C37\u5E95\u306E\u6751 > \u5730\u4E0A\u3078\u306E\u90531"
+    uniqueName: way_to_earth1
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u8C37\u5E95\u306E\u6751"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 24
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5730\u4E0A\u3078\u306E\u90532"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 26
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: d3cae86408d7d6d40b2016e818d20426, type: 2}
+  - name: "\u8C37\u5E95\u306E\u6751 > \u5730\u4E0A\u3078\u306E\u90532"
+    uniqueName: way_to_earth2
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5730\u4E0A\u3078\u306E\u90531"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 25
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5730\u4E0A\u3078\u306E\u90533"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 27
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: d3cae86408d7d6d40b2016e818d20426, type: 2}
+    - {fileID: 11400000, guid: d3cae86408d7d6d40b2016e818d20426, type: 2}
+  - name: "\u8C37\u5E95\u306E\u6751 > \u5730\u4E0A\u3078\u306E\u90533"
+    uniqueName: way_to_earth3
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5730\u4E0A\u3078\u306E\u90532"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 26
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u307B\u308D\u3073\u305F\u6751"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 28
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 2155c76fc7f77ff4ba30aec98c217b7f, type: 2}
+    - {fileID: 11400000, guid: 69e9375e1489335408cbead7d8d60328, type: 2}
+    - {fileID: 11400000, guid: 69e9375e1489335408cbead7d8d60328, type: 2}
+  - name: "\u8C37\u5E95\u306E\u6751 > \u6C34\u6676\u6D1E\u7A9F1"
+    uniqueName: crystal_cave1
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u8C37\u5E95\u306E\u6751"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 24
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6C34\u6676\u6D1E\u7A9F2"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 22
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 2155c76fc7f77ff4ba30aec98c217b7f, type: 2}
+    - {fileID: 11400000, guid: 2155c76fc7f77ff4ba30aec98c217b7f, type: 2}
+  - name: "\u8C37\u5E95\u306E\u6751 > \u6C34\u6676\u6D1E\u7A9F2"
+    uniqueName: crystal_cave2
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u6C34\u6676\u6D1E\u7A9F1"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 21
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6C34\u6676\u6D1E\u7A9F3"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 23
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 2155c76fc7f77ff4ba30aec98c217b7f, type: 2}
+    - {fileID: 11400000, guid: 2155c76fc7f77ff4ba30aec98c217b7f, type: 2}
+  - name: "\u8C37\u5E95\u306E\u6751 > \u6C34\u6676\u6D1E\u7A9F3"
+    uniqueName: crystal_cave3
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u6C34\u6676\u6D1E\u7A9F2"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 22
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6C34\u6676\u6D1E\u7A9F\u6700\u6DF1\u90E8"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 30
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 2155c76fc7f77ff4ba30aec98c217b7f, type: 2}
+    - {fileID: 11400000, guid: 2155c76fc7f77ff4ba30aec98c217b7f, type: 2}
+  - name: "\u8C37\u5E95\u306E\u6751 > \u6C34\u6676\u6D1E\u7A9F\u6700\u6DF1\u90E8"
+    uniqueName: crystal_deposit
+    infoTexts:
+    - text: "\u8F1D\u304B\u3057\u3044\u6C34\u6676\u304C\u305F\u304F\u3055\u3093\u751F\u3048\u305F\u6D1E\u7A9F\u306E\u6700\u6DF1\u90E8\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u9271\u77F3\u3092\u6398\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: c13931f086a84074594d75b9303b75da, type: 2}
+        args:
+          targetID: 0
+          mount: 1
+          targetMapName: 0
+          targetItemName: 26
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      - action: {fileID: 11400000, guid: 522f12a0b70dfd44a871a2d09e99be25, type: 2}
+        args:
+          targetID: 0
+          mount: -3
+          targetMapName: 0
+          targetItemName: 26
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u6C34\u6676\u6D1E\u7A9F3"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 23
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u307B\u308D\u3073\u305F\u6751"
+    uniqueName: ruined_village
+    infoTexts:
+    - text: "[ \u3053\u3053\u3092\u30EA\u30B9\u30DD\u30FC\u30F3\u5730\u70B9\u306B\u8A2D\u5B9A\u3059\u308B
+        ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: fb042c68def2ff24aa4e07291bdfe9fc, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 28
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "[ \u4F11\u61A9\u3059\u308B ]"
+      actionDatas:
+      - action: {fileID: 11400000, guid: f9e3e4be6b17d2a4ea15c13ee7cd06e0, type: 2}
+        args:
+          targetID: 0
+          mount: 99999
+          targetMapName: 28
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      - action: {fileID: 11400000, guid: 8a294d23b6be3a54eac8989274f44f33, type: 2}
+        args:
+          targetID: 0
+          mount: 99999
+          targetMapName: 0
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5730\u4E0A\u3078\u306E\u90533"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 27
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u6C5A\u308C\u305F\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 29
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u307B\u308D\u3073\u305F\u6751 > \u6C5A\u308C\u305F\u9053"
+    uniqueName: dirty_road
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u307B\u308D\u3073\u305F\u6751"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 28
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5438\u8840\u9B3C\u57CE\u5165\u53E3"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 42
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 69e9375e1489335408cbead7d8d60328, type: 2}
+    - {fileID: 11400000, guid: 2f9cf97a5245f854c919246a80852cd7, type: 2}
+    - {fileID: 11400000, guid: 2f9cf97a5245f854c919246a80852cd7, type: 2}
+  - name: "\u5438\u8840\u9B3C\u57CE\u5165\u53E3"
+    uniqueName: vampire_castle_entrance
+    infoTexts:
+    - text: "\u304A\u305D\u308D\u3057\u3044\u5438\u8840\u9B3C\u304C\u4F4F\u307E\u3046\u57CE\u306E\u5165\u53E3\u3002"
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u6C5A\u308C\u305F\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 29
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5438\u8840\u9B3C\u57CE"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 31
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 9191c7fadd3eb64408624ba4ac575382, type: 2}
+    - {fileID: 11400000, guid: 9191c7fadd3eb64408624ba4ac575382, type: 2}
+  - name: "\u5438\u8840\u9B3C\u57CE"
+    uniqueName: vampire_castle
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u77F3\u7573\u306E\u9053"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 30
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u53F3\u306E\u6249"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 32
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5DE6\u306E\u6249"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 33
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5438\u8840\u9B3C\u57CE > \u53F3\u306E\u6249"
+    uniqueName: vampire_castle_right1
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5438\u8840\u9B3C\u57CE"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 31
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: a7fbeceb539848b47a4b28d98428708c, type: 2}
+  - name: "\u5438\u8840\u9B3C\u57CE > \u5DE6\u306E\u6249"
+    uniqueName: vampire_castle_left1
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5438\u8840\u9B3C\u57CE"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 31
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5927\u968E\u6BB5"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 34
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 69e9375e1489335408cbead7d8d60328, type: 2}
+    - {fileID: 11400000, guid: 69e9375e1489335408cbead7d8d60328, type: 2}
+    - {fileID: 11400000, guid: 69e9375e1489335408cbead7d8d60328, type: 2}
+  - name: "\u5438\u8840\u9B3C\u57CE > \u5DE6\u306E\u6249 > \u5927\u968E\u6BB5"
+    uniqueName: vampire_castle_big_staircase
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5DE6\u306E\u6249"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 33
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "2\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 35
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5438\u8840\u9B3C\u57CE > 2\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9"
+    uniqueName: vampire_castle_2nd_floor_entrance
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "1\u968E\u5927\u968E\u6BB5"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 34
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u66F8\u5EAB"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 36
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u8ABF\u7406\u5BA4"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 37
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5927\u968E\u6BB5"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 38
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 9191c7fadd3eb64408624ba4ac575382, type: 2}
+    - {fileID: 11400000, guid: a7fbeceb539848b47a4b28d98428708c, type: 2}
+  - name: "\u5438\u8840\u9B3C\u57CE > 2\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9
+      > \u66F8\u5EAB"
+    uniqueName: vampire_castle_2nd_floor_stack
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "2\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 35
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: a7fbeceb539848b47a4b28d98428708c, type: 2}
+    - {fileID: 11400000, guid: a7fbeceb539848b47a4b28d98428708c, type: 2}
+  - name: "\u5438\u8840\u9B3C\u57CE > 2\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9
+      > \u8ABF\u7406\u5BA4"
+    uniqueName: vampire_castle_2nd_floor_kitchen
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "2\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 35
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: 9573ea5b99c698242bfd51d810dc37c3, type: 2}
+    - {fileID: 11400000, guid: 9191c7fadd3eb64408624ba4ac575382, type: 2}
+  - name: "\u5438\u8840\u9B3C\u57CE > 2\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9
+      > \u5927\u968E\u6BB5"
+    uniqueName: vampire_castle_2nd_floor_big_staircase
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "2\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 35
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "3\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 39
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5438\u8840\u9B3C\u57CE > 3\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9"
+    uniqueName: vampire_castle_3nd_floor_entrance
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "2\u968E\u5927\u968E\u6BB5"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 38
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u5927\u6249"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 40
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: a7fbeceb539848b47a4b28d98428708c, type: 2}
+    - {fileID: 11400000, guid: a7fbeceb539848b47a4b28d98428708c, type: 2}
+    - {fileID: 11400000, guid: 9573ea5b99c698242bfd51d810dc37c3, type: 2}
+  - name: "\u5438\u8840\u9B3C\u57CE > 3\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9
+      > \u5927\u6249"
+    uniqueName: vampire_castle_3nd_floor_large_door
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "3\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 39
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - text: "\u751F\u8D04\u306E\u9593"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 41
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas: []
+  - name: "\u5438\u8840\u9B3C\u57CE > 3\u968E\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9
+      > \u751F\u8D04\u306E\u9593"
+    uniqueName: vampire_castle_3nd_floor_sacrifice_room
+    infoTexts:
+    - text: 
+      actionDatas: []
+      color: {r: 1, g: 1, b: 1, a: 1}
+    mapMovementActions:
+    - text: "\u5927\u6249"
+      actionDatas:
+      - action: {fileID: 11400000, guid: 248b88c3229d03547bc7140021aaf8fd, type: 2}
+        args:
+          targetID: 0
+          mount: 0
+          targetMapName: 40
+          targetItemName: 0
+          consumeItemInfo: []
+          getItemInfo: []
+          forceExecute: 0
+          shopDatabase: {fileID: 0}
+          tradeDatabase: {fileID: 0}
+          eventProbability: 0
+          userId: 
+          emoteMessage: 
+          attackBuff:
+            uniqueKey: 
+            name: 
+            mount: 0
+          attackBuffDuration: 0
+          targetJob: 0
+          jobChangeDatas: []
+          key: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+    enemyDatas:
+    - {fileID: 11400000, guid: bed25d7fc0c8c35458c4f1e6bf426656, type: 2}

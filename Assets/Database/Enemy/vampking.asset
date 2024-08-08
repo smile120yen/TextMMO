@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31933bbdfac890841b99fc6050e9ab4d, type: 3}
+  m_Name: vampking
+  m_EditorClassIdentifier: 
+  enemyName: "\u5438\u8840\u9B3C\u306E\u738B"
+  enemyMaxHp: 400
+  enemyAtk: 5
+  dropItemDatas:
+  - itemName: 3
+    dropChance: 1
+    dropMaxMount: 300
+    dropMinMount: 200
+  - itemName: 16
+    dropChance: 1
+    dropMaxMount: 5
+    dropMinMount: 2
+  - itemName: 17
+    dropChance: 1
+    dropMaxMount: 10
+    dropMinMount: 2
+  - itemName: 33
+    dropChance: 1
+    dropMaxMount: 1
+    dropMinMount: 1
+  deathActions:
+  - action: {fileID: 11400000, guid: 4cca45c1654167a4a887aa7829c0eb6e, type: 2}
+    args:
+      targetID: 0
+      mount: 0
+      targetMapName: 0
+      targetItemName: 0
+      consumeItemInfo: []
+      getItemInfo: []
+      forceExecute: 0
+      shopDatabase: {fileID: 0}
+      tradeDatabase: {fileID: 0}
+      eventProbability: 0
+      userId: 
+      emoteMessage: 
+      attackBuff:
+        uniqueKey: 
+        name: 
+        mount: 0
+      attackBuffDuration: 0
+      targetJob: 0
+      jobChangeDatas: []
+      key: vampire
